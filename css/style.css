@@ -1,0 +1,185 @@
+html,body{
+    height: 100%;
+    background: azure;
+}
+
+body>div.buttons{
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+body>div>div{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    width: 10%;
+}
+#element{
+    height: 20%;
+    width: 300px;
+    background: firebrick;
+    position: relative;
+    margin: 0 auto;
+}
+.d1{
+    animation:animation1 5s infinite;
+    -webkit-animation:animation1 5s infinite; 
+}
+.header{
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+@keyframes animation1
+{
+    from {left:0px;}
+    to {left:200px;}
+}
+
+@-webkit-keyframes animation1 
+{
+    from {left:0px;}
+    to {left:200px;}
+}
+.d2{
+    animation:animation2 5s infinite;
+    -webkit-animation:animation2 5s infinite; 
+}
+@keyframes animation2
+{
+    from {width:100px;}
+    to {width:200px;}
+}
+
+@-webkit-keyframes animation2 
+{
+    from {width:100px;}
+    to {width:200px;}
+}
+.d3{
+    animation:animation3 5s infinite;
+    -webkit-animation:animation3 5s infinite; 
+}
+@keyframes animation3
+{
+    from{transform:rotate(0);}
+    to{transform:rotate(180deg);}
+}
+
+@-webkit-keyframes animation3 
+{
+    from{transform:rotate(0);}
+    to{transform:rotate(180deg);}
+}
+.d4{
+    animation:animation4 5s infinite;
+    -webkit-animation:animation4 5s infinite; 
+}
+@keyframes animation4
+{
+    from{transform:scale(1);}
+    to{transform:scale(1.5);}
+}
+
+@-webkit-keyframes animation4 
+{
+    from{transform:scale(1);}
+    to{transform:scale(1.5);}
+}
+.d5{
+    animation:animation5 5s infinite;
+    -webkit-animation:animation5 5s infinite; 
+}
+@keyframes animation5
+{
+    from{transform:rotateX(0);}
+    to{transform:rotateX(45deg);}
+}
+
+@-webkit-keyframes animation5 
+{
+    from{transform:rotateX(0);}
+    to{transform:rotateX(45deg);}
+}
+.d6{
+    animation:animation6 5s infinite;
+    -webkit-animation:animation6 5s infinite; 
+}
+@keyframes animation6
+{
+    from{transform:rotateY(0);}
+    to{transform:rotateY(45deg);}
+}
+
+@-webkit-keyframes animation6 
+{
+    from{transform:rotateY(0);}
+    to{transform:rotateY(45deg);}
+}
+.d7{
+    animation:animation7 5s infinite;
+    -webkit-animation:animation7 5s infinite; 
+}
+@keyframes animation7
+{
+    from{transform:skewX(0);}
+    to{transform:skewX(45deg);}
+}
+
+@-webkit-keyframes animation7 
+{
+    from{transform:skewX(0);}
+    to{transform:skewX(45deg);}
+}
+.d8{
+    animation:animation8 5s infinite;
+    -webkit-animation:animation8 5s infinite; 
+}
+@keyframes animation8
+{
+    from{transform:skewY(0);}
+    to{transform:skewY(45deg);}
+}
+
+@-webkit-keyframes animation8 
+{
+    from{transform:skewY(0);}
+    to{transform:skewY(45deg);}
+}
+.d9{
+    animation:animation9 5s infinite;
+    -webkit-animation:animation9 5s infinite;
+}
+@keyframes animation9
+{
+    from{opacity:1;}
+    to{opacity:0.5;}
+}
+
+@-webkit-keyframes animation9 
+{
+    from{opacity:1;}
+    to{opacity:0.5;}
+}
+.d10{
+    animation:animation10 5s infinite;
+    -webkit-animation:animation10 5s infinite; 
+}
+@keyframes animation10
+{
+    from{background:firebrick;}
+    to{background:darkseagreen;}
+}
+
+@-webkit-keyframes animation10 
+{
+    from{background:firebrick;}
+    to{background:darkseagreen;}
+}
