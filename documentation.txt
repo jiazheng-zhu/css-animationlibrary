@@ -1,0 +1,5 @@
+animation library is a library of ready-to-use, cross-browser animations for use in your web projects. 
+Great for emphasis, home pages, sliders, and attention-guiding hints.
+How to work the library:
+-Link saenimate.css to the desired .html file.
+-Saenimate animations work only if .saenimate class is applied to an element before defining the animation.
